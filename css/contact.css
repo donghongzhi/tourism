@@ -1,0 +1,107 @@
+#container{
+	width:960px;
+	background-color: #fff;
+	padding:30px;
+	border-top:2px solid #e4393c;
+}
+#container h1{
+	font-weight:normal;
+}
+/*左侧列表信息*/
+#container div.info-list {
+	margin-right:20px;
+}
+#container div.info-list h1{
+	margin:30px 0 20px 30px;
+}
+#container div.info-list img {
+	box-shadow: 0 0 3px 1px;
+}
+#container div.info-list ul{
+	margin-left:30px;
+}
+#container div.info-list li{
+	padding-bottom:10px;
+	line-height: 18px;
+}
+#container div.info-list li img{
+	padding-bottom:4px;
+	box-shadow: 0 0 ;
+	padding-right:4px;
+}
+#container div.info-list li:nth-child(4),#container div.info-list li:nth-child(5){
+	padding-left:17px;
+}
+#container div.info-list li a{
+	color:#aaa;
+}
+#container div.info-list li a:hover{
+	color:#000;
+}
+/*右侧联系与反馈*/
+#container div.form{
+	width:450px;
+}
+#container div.form div.i{
+	padding:20px 0;
+	margin-bottom:10px;
+}
+#container div.form span{
+	display:inline-block;
+	width:80px;
+	margin-right:10px;
+	font-size: 16px;
+}
+#container div.form input{
+	height:25px;
+	width:200px;
+	outline:none;
+}
+#container div.form textarea{
+	outline:none;
+}
+#container div.form input.red{
+	background-color: red;
+	color:#fff;
+	border:none;
+	width:100px;
+	border-radius:5px;
+	box-shadow:0 0 1px;
+	margin-left:95px;
+	cursor: pointer;
+}
+#container div.form input.red:hover{
+	background-color:#e4393c;
+}
+#container div.form input.gray{
+	background-color: #eee;
+	color:#000;
+	border:none;
+	width:100px;
+	border-radius:5px;
+	box-shadow:0 0 1px;
+	margin-left:15px;
+	cursor: pointer;
+}
+#container div.form input.gray:hover{
+	background-color:#ddd;
+}
+
+/***********分割线***********/
+#container div.info-list div.heading_border,
+#container div.form div.heading_border{
+	border-left: 40px solid #f15a23;
+    height: 2px;
+    background-color: #efefef;
+    margin: 15px 0;
+}
+#container div.info-list div.heading_border_none,
+#container div.form div.heading_border_none{
+	height: 1px;
+    background-color: #efefef;
+    margin: 10px 0;
+}
+#container div.form div.heading_border_dashed{
+	border-bottom: 1px dashed #ddd;
+    margin: 10px 0;
+}

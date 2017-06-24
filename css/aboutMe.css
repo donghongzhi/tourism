@@ -1,0 +1,229 @@
+/*2大图*/
+#banner{
+    position:relative;
+    border-bottom:2px solid #e4393c;
+    width:960px;
+    margin:0 auto;
+}
+#banner img{
+    width:100%;
+    height:200px;
+}
+#banner span {
+    margin: 20px 0 0 20px;
+    line-height: 25px;
+    padding: 10px;
+    font-size: 24px;
+    color: #fff;
+    background-color: #000;
+    position: absolute;
+    top:0;
+}
+#banner span small {
+    display: block;
+    line-height: 18px;
+    font-size: 13px;
+    color: #aaaaaa;
+}
+
+/*3.容器*/
+#sub-container{
+    width:960px;
+    /*height:970px;*/
+    margin:0 auto;
+    padding:20px;
+    box-sizing: border-box;
+    background-color: #fff;
+}
+#sub-container div.top h1{
+    font-weight:normal;
+}
+#sub-container div.top p{
+    font-weight:normal;
+    font-size: 18px;
+    padding:10px 0 30px 0;
+}
+/*3.1容器--上*/
+    /*左*/
+#user div.user-left{
+    width:594px;
+}
+#user div.user-left div.parent{
+    position:relative;
+    width: 240px;
+    height:150px;
+    margin:0 20px 10px 0;
+}
+#user div.user-left div.parent>img{
+    width: 240px;
+    height:156px;
+}
+#user div.user-left div.parent p {
+    width: 240px;
+    height: 156px;
+
+    background-color: #000;
+    opacity:0;
+
+    position: absolute;
+    top:0;
+    left:0;
+    text-align: center;
+    padding: 0;
+    transition: opacity 0.5s linear;
+}
+#user div.user-left div.parent p img{
+    margin-top:45px;
+}
+#user div.user-left div.parent:hover p{
+    cursor: pointer;
+    opacity:0.5;
+}
+#user div.user-left span.firstdrop{
+    font-size: 20px;
+    float: left;
+    line-height: 1.15em;
+    padding: 3px 7px 2px 7px;
+    font-weight: bold;
+    background-color: #CCC;
+    margin-right: 7px;
+}
+    /*右*/
+#user div.user-right{
+    width:300px;
+    padding-left:20px;
+}
+#user div.user-right p{
+    font-size: 16px;
+    padding-top:0;
+}
+#user div.user-right ul{
+    padding:0 20px 15px 0;
+
+}
+#user div.user-right ul li{
+    padding-bottom:15px;
+}
+#user div.user-right ul li i{
+    background: url(../images/star.png) no-repeat 0 -18px;
+    display: inline-block;
+    width: 10px;
+    height: 9px;
+}
+/*3.2容器--中*/
+#sub-container div.middle div.heading_border {
+    border-left: 40px solid #f15a23;
+    height: 2px;
+    background-color: #efefef;
+    margin: 15px 0;
+}
+#sub-container div.middle{
+    min-height: 520px;
+}
+#sub-container div.middle h1{
+    font-weight:normal;
+    padding-bottom:10px;
+}
+#sub-container div.middle dl{
+    height:310px;
+    width:220px;
+    text-align: center;
+    float:left;
+    margin-right: 10px;
+}
+/*C3动画*/
+#sub-container div.middle dl dt img{
+    transition:all .5s;
+    margin-bottom:10px;
+}
+#sub-container div.middle dl dt:hover img{
+    transform:scale(1.1) rotateY(30deg);
+}
+/***********/
+
+#sub-container div.middle dl dd:nth-child(3){
+    padding-bottom:10px;
+}
+#sub-container div.middle dl dd:last-child{
+    padding-top:10px;
+}
+#sub-container div.middle dl dd:last-child a{
+    display: inline-block;
+    width:30px;
+    height:30px;
+    line-height: 26px;
+    border:1px solid #ddd;
+    background-color: #DDD;
+    font-size: 18px;
+    font-weight: bold;
+    color:#fff;
+    text-decoration: none;
+    transition:all .5s linear;
+}
+#sub-container div.middle dl dd:last-child a:hover{
+    transform: rotate(360deg);
+}
+#sub-container div.middle dl.d1 dd:last-child a:hover{
+    background-color:red;
+}
+#sub-container div.middle dl.d2 dd:last-child a:hover{
+    background-color:green;
+}
+#sub-container div.middle dl.d3 dd:last-child a:hover{
+    background-color:yellow;
+}
+#sub-container div.middle dl.d4 dd:last-child a:hover{
+    background-color:blue;
+}
+/*3.3.容器--下*/
+#sub-container div.bottom{
+    height:210px;
+    padding:20px;
+    text-align: center;
+    background:#fff;
+    border-top:2px solid #e4393c;
+}
+#sub-container div.bottom h1{
+    font-weight:normal;
+    font-size: 30px;
+}
+#sub-container div.bottom p{
+    font-style:italic;
+    margin:15px 0;
+    font-size:18px;
+}
+#sub-container div.bottom button{
+    width:90px;
+    height:40px;
+    border-radius:5px;
+    border:none;
+    background-color:#e4393c;
+    color:#fff;
+    outline:0;
+}
+#sub-container div.bottom button:hover{
+     background-color:#e00;
+     cursor:pointer;
+}
+/*4.底部小图*/
+#footer-list{
+    width:960px;
+    margin:0 auto;
+    background:#fff;
+}
+#footer-list li{
+    float:left;
+    width:320px;
+}
+#footer-list li span{
+    display: inline-block;
+    background-color:#161415;
+    width:320px;
+    color:#fff;
+    height:25px;
+    line-height: 25px;
+}
+#footer-list li img{
+    width:100%;
+    box-shadow:0 0 3px;
+}

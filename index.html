@@ -1,0 +1,209 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<link rel="stylesheet" href="css/index.css">
+	<script src="js/jquery-1.11.3.js"></script>
+	<script src="js/init.js"></script>
+	<title>index</title>
+</head>
+<body>
+	<!-- 1.头部导航条 -->
+	<header id="nav">
+		<ul>
+			<li class="active"><a href="index.html">首页</a></li>
+			<li><a href="portfolio.html">预定</a></li>
+			<li class="nav-style">
+				<a href="#">设计<b class="caret"></b></a>
+				<ol>
+					<li><a href="style1.html">风格1</a></li>
+					<li><a href="index.html">风格2</a></li>
+					<li style="color:#ddd;">风格3</li>
+				</ol>
+			</li>
+			<li class="nav-style">
+				<a href="#">篇章<b class="caret"></b></a>
+				<ol id="other">
+					<li><a href="aboutMe.html">关于我们</a></li>
+					<li><a href="404.html">other</a></li>
+				</ol>
+			</li>
+			<li><a href="contact.html">通讯</a></li>
+		</ul>
+		<input type="text" placeholder="Search" autofocus>
+	</header>
+	
+	<div id="container" >
+		<!-- 2.1.图片轮播 -->
+		<div id="banners" class="slider">
+			<img class="active" src="slider/lrgimg2.jpg" alt="1">
+			<img src="slider/lrgimg4.jpg" alt="2">
+			<img src="slider/lrgimg5.jpg" alt="3">
+			<img src="slider/lrgimg6.jpg" alt="4">
+			<div>
+				<h2>客户服务</h2>
+				<small>卓越的客户服务</small>
+			</div>
+			<ul>
+				<li class="active">1</li>
+				<li>2</li>
+				<li>3</li>
+				<li>4</li>
+			</ul>
+		</div>
+		<!-- 2.2.主体内容 -->
+		<section id="main">
+			<div class="main-s lf">	
+				<div id="content">
+					<div class="content-text">
+						<h2>起始主题</h2>
+						<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Autem quos dolor et ipsam non, molestias incidunt similique provident libero suscipit! Excepturi omnis eum, itaque maiores id pariatur soluta error, optio.</p>
+						<a href="#"><input type="button" value="加载更多"></a>
+					</div>
+					<h2>
+						<p>新事件</p>
+						<small>更新新闻和事件</small>
+					</h2>
+					<hr>
+					<ul>
+						<li>
+							<div class="lf"><img src="exampic/02.jpg" ></div>
+							<div class="img1">
+								<h6>图片1</h6>
+								<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quia doloribus, dolorem quam nihil sint voluptatem accusantium, minus ipsa non saepe doloremque sapiente. Mollitia ipsa repellendus nisi, fugit nihil. Enim, asperiores.</p>
+							</div>
+						</li>
+						<li>
+							<div class="lf"><img src="exampic/07.jpg" ></div>
+							<div class="img1">
+								<h6>图片2</h6>
+								<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quia doloribus, dolorem quam nihil sint voluptatem accusantium, minus ipsa non saepe doloremque sapiente. Mollitia ipsa repellendus nisi, fugit nihil. Enim, asperiores.</p>
+							</div>
+						</li>
+						<li>
+							<div class="lf"><img src="exampic/08.jpg" ></div>
+							<div class="img1">
+								<h6>图片3</h6>
+								<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quia doloribus, dolorem quam nihil sint voluptatem accusantium, minus ipsa non saepe doloremque sapiente. Mollitia ipsa repellendus nisi, fugit nihil. Enim, asperiores.</p>
+							</div>
+						</li>
+					</ul>
+					<div class="clear"></div>
+				</div>
+				<div class="black"></div>
+				<div id="content-bottom">
+					<h2>
+						<p>特色项目</p>
+						<small>独特特色</small>
+					</h2>
+					<hr>
+					<dl>
+						<dt><img src="exampic/24.jpg" alt=""></dt>
+						<dd>普密蓬桥</dd>
+						<dd><img src="images/icon-geo.png" alt=""> 曼谷 泰国</dd>
+						<dd><i></i></dd>
+					</dl>
+					<dl>
+						<dt><img src="exampic/25.jpg" alt=""></dt>
+						<dd>昌泰</dd>
+						<dd><img src="images/icon-geo.png" alt=""> 南邦，泰国</dd>
+						<dd><i></i></dd>
+					</dl>
+					<dl>
+						<dt><img src="exampic/26.jpg" alt=""></dt>
+						<dd>Taladnam</dd>
+						<dd><img src="images/icon-geo.png" alt=""> 清迈 泰国</dd>
+						<dd><i></i></dd>
+					</dl>
+					<div class="clear"></div>
+					<ol>
+						<li class="active"></li>
+						<li></li>
+						<li></li>
+					</ol>
+				</div>
+			</div>
+			<!-- 右侧列表 -->
+			<div id="aside" class="lf">
+				<ul>
+					<li>
+						<b>RSS Feed</b>
+						<span>Instant info delivered to you</span>
+					</li>
+					<li>
+						<b>Multimedia</b>
+						<span>Download interactive media</span>
+					</li>
+					<li>
+						<b>Community </b>
+						<span>Discuss forum, blocks & polls</span>
+					</li>
+					<li>
+						<b>Newsletter</b>
+						<span>Professionals in action</span>
+					</li>
+				</ul>
+				<div class="weather">
+					<h2>天气预报</h2>
+					<p>国家和地方天气</p>
+				</div>
+				<div class="aside-black"></div>
+				<div class="aside-bottom">
+					<div>
+						<a href="#">
+							<dl>
+								<dt><img src="images/thumbnail-1.jpg" alt=""></dt>
+								<dd><h2>清迈之旅</h2></dd>
+								<dd><img src="images/icon-geo.png" alt=""> 湄沙 清迈</dd>
+								<dd><i></i></dd>	
+							</dl>
+							<!-- 遮罩层 -->
+							<p><u></u></p>
+						</a>
+					</div>
+					<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ab quae exercitationem ea illo, inventore minima possimus aliquid ipsum unde nam repudiandae quia sunt distinctio ut veritatis tempore ullam voluptates necessitatibus!</p>
+					<ul id="model">
+						<li><a href="#" title="find us googleplus">f</a></li>
+						<li><a href="#" title="find us facebook">g</a></li>
+						<li><a href="#" title="find us twitter">t</a></li>
+						<li><a href="#" title="find us youtobe">b</a></li>
+					</ul>
+				</div>
+			</div>
+			<div class="clear"></div>
+		</section>
+		<!-- 2.3底部内容 -->
+		<footer id="container-footer">
+			<div>
+				<h2>联系我们</h4>
+				<ul>
+					<li><img src="images/phone.png" alt=""> 13351234567</li>
+					<li><img src="images/letter.png" alt=""> <a href="#"> 124@163.com</a></li>
+					<li><img src="images/home.png" alt=""> ZICEINCLUDE ™ by zicedemo25 M4 Banyang Nakronthai Phitsanulok, TH 65120</li>
+				</ul>
+			</div>
+			<div>
+				<h2>我们的服务</h4>
+				<ul>
+					<li><i></i> Lorem ipsum dolor sit amet</li>
+					<li><i></i> Lorem ipsum dolor sit amet</li>
+					<li><i></i> Lorem ipsum dolor sit amet</li>
+					<li><i></i> Lorem ipsum dolor sit amet</li>
+					<li><i></i> Lorem ipsum dolor sit amet</li>
+					<li><i></i> Lorem ipsum dolor sit amet</li>
+					<li><i></i> Lorem ipsum dolor sit amet</li>
+				</ul>
+			</div>
+			<div>
+				<h2>关于我们</h4>
+				<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Tempora asperiores quidem voluptate dolor fuga culpa aperiam accusamus hic consequatur excepturi delectus consectetur atque vel.</p>
+			</div>
+			<div>
+				<h2>照片流</h4>
+			</div>
+		</footer>
+	</div>
+	<!-- 3.尾部 -->
+	<footer id="footer">© 版权 © **公司保留所有权利</footer>
+</body>
+</html>

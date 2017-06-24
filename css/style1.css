@@ -1,0 +1,190 @@
+/*2.1图片轮播*/
+#container{
+	width:960px;
+}
+#container div.slider{
+	position: relative;
+	height:400px;
+}
+#container div.slider img{
+	position: absolute;
+	top:0;
+	left:0;
+	box-shadow:0 0 1px;
+	z-index: -1;
+}
+#container div.slider img.active{
+	z-index: auto;
+}
+#container div.slider>ul{
+	position: absolute;
+	bottom:30px;
+	right: 20px;
+	z-index: 10;
+}
+#container div.slider>ul>li{
+	float:left;
+	margin-right: 25px;
+	color:#FFF;
+	border:1px solid #ddd;
+	width:21px;
+	height:20px;
+	text-align: center;
+	border-radius:50%;
+	cursor:pointer;
+}
+#container div.slider>ul>li:hover{
+	background-color: #e4393c;
+}
+	/*轮播下文本*/
+#container div.text{
+	height:210px;
+	padding:20px;
+	text-align: center;
+	background:#fff;
+	border-top:2px solid #e4393c;
+}
+#container div.text h1{
+	font-weight:normal;
+	font-size: 30px;
+}
+#container div.text p{
+	font-style:italic;
+	margin:15px 0;
+	font-size:18px;
+}
+#container div.text button{
+	width:90px;
+	height:40px;
+	border-radius:5px;
+	background-color:#eee;
+	outline:0;
+}
+	/*black*/
+#container div.black{
+	height:10px;
+	background-color:#3E4044;
+}
+/*2.2详情信息*/
+#detail{
+	height:500px;
+	background-color: #fff;
+	padding:30px 0;
+}
+	/*2.2.1详情信息左*/
+#detail div.detail-left{
+	width:300px;
+	padding:0 20px;
+}
+#detail div.detail-left div h1,#detail div.detail-right div h1{
+	font-weight:normal;
+	font-size: 30px;
+}
+	/*分割线*/
+#detail div.heading_border {
+	border-left: 40px solid #f15a23;
+	height: 2px;
+	background-color: #efefef;
+	margin: 15px 0;
+}
+#detail div.heading_border_none {
+	height: 1px;
+	background-color: #efefef;
+	margin: 10px 0;
+}
+	/************/
+
+#detail div.detail-left ul{
+	padding:15px 20px;
+}
+#detail div.detail-left ul li{
+	padding-bottom:15px;
+}
+#detail div.detail-left ul li i{
+	background: url(../images/star.png) no-repeat 0 -18px;
+	display: inline-block;
+	width: 10px;
+	height: 9px;
+}
+
+/*************/
+#model{
+	margin:20px 0 0 50px;
+}
+#model li{
+	width:28px;
+	height:9px;
+	float:left;
+	margin-right:20px;
+	font-size: 16px;
+	font-weight: bold;
+	border-bottom: none;
+	transition:all .5s linear;
+	background-color: #000;
+	text-align: center;
+}
+#model li:hover {
+	background-color: #ffb915;
+	transform:rotate(360deg);
+}
+#model a{
+	display: inline-block;
+	width:30px;
+	height:30px;
+	text-decoration:none;
+	color:#fff;
+}
+/***************/
+
+	/*2.2.2详情信息右---新事件*/
+#detail div.detail-right{
+	margin:0 20px;
+	width:578px;
+}
+#detail div.detail-right ul img{
+	width:130px;
+	height:97px;
+	box-shadow:0 0 3px;
+	transition:all .5s;
+}
+#detail div.detail-right ul img:hover{
+	transform: scale(1.1);
+}
+#detail div.detail-right ul>li>div.img1{
+	padding-left:140px;
+}
+#detail div.detail-right>ul>li>div>p{
+	padding:10px 10px 40px 0;
+}
+
+/*2.3图片列表*/
+#container div.imgList{
+	height:95px;
+	width:920px;
+	padding:20px;
+	background-color:#46433B;
+	overflow:hidden;
+}
+#container div.imgList li{
+	float:left;
+}
+#container div.imgList li a{
+	display:inline-block;
+	width:111px;
+	height:79px;
+	padding:10px 20px;
+	border-right:1px solid #ddd;
+	cursor:pointer;
+}
+#container div.imgList li a.last-child{
+	border-right:none;
+}
+/*C3动画*/
+#container div.imgList li img{
+	width:104px;
+	height:79px;
+	transition:all 1s;
+}
+#container div.imgList li a:hover img{
+	transform:rotateY(360deg) scale(1.6);
+}
