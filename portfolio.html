@@ -6,10 +6,12 @@
 	<link rel="stylesheet" href="css/portfolio.css">
 	<script src="js/jquery-1.11.3.js"></script>
 	<script src="js/init.js"></script>
+	<script src="js/portfolio.js"></script>
 	<script ></script>
 	<title>预定</title>
 </head>
 <body>
+	<div id="top"></div>
 	<!-- 1.头部 -->
 	<header id="nav">
 	</header>
@@ -36,7 +38,7 @@
 					<small>这个假期你说了算</small>
 				</h1>
 				<hr>
-				<ul>
+				<ul id="handleClick">
 					<li><input type="button" value="All"></li>
 					<li><input type="button" value="Designs"></li>
 					<li><input type="button" value="Photos"></li>
@@ -199,5 +201,9 @@
 	<!-- 3.尾部 -->
 	<footer id="footer">
 	</footer>	
+
+	<!-- 其他部分 -->
+	<!-- 回到顶部 -->
+	<a href="#top" id="scrollTop"><img src="images/top.png" ></a>
 </body>
 </html>

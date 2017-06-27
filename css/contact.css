@@ -56,15 +56,18 @@
 	height:25px;
 	width:200px;
 	outline:none;
+	padding:0 8px;
 }
 #container div.form textarea{
 	outline:none;
+	padding:8px;
 }
 #container div.form input.red{
 	background-color: red;
 	color:#fff;
 	border:none;
 	width:100px;
+	height:33px;
 	border-radius:5px;
 	box-shadow:0 0 1px;
 	margin-left:95px;
@@ -78,6 +81,7 @@
 	color:#000;
 	border:none;
 	width:100px;
+	height:31px;
 	border-radius:5px;
 	box-shadow:0 0 1px;
 	margin-left:15px;

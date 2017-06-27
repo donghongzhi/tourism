@@ -48,14 +48,15 @@ img{vertical-align:bottom;}
 	float:left;
 	padding:0 25px;
 	height:50px;
-	width:42px;
+	width:45px;
 	font-size: 14px;
 }
 #nav>ul>li>a{
 	color:#aaa;
-	width:50px;
+	width:45px;
 	line-height: 50px;
 	display: inline-block;
+	text-align: center;
 }
 #nav>ul>li>a:hover{
 	color:#fff;
@@ -82,7 +83,7 @@ img{vertical-align:bottom;}
 #nav li.nav-style ol{
 	border:1px solid #ddd;
 	border-radius: 5px;
-	background:#fff;
+	background: #000;
 	width:60px;
 	height:100px;
 	position: absolute;
@@ -427,4 +428,20 @@ img{vertical-align:bottom;}
 	background-color: #3A3A3A;
 	text-align: center;
 	color: #fff;
+}
+
+/*其他部分
+回到顶部*/
+#scrollTop{
+	position:fixed;
+	bottom:80px;
+	right:30px;
+	border:1px solid #aaa;
+	background-color: #777;
+	transition:all 1s;
+	display:none;
+}
+#scrollTop:hover{
+	background-color: black;
+	cursor:pointer;
 }
