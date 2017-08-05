@@ -1,4 +1,7 @@
 $(function() {
+    $("#container-footer").load("container-footer.html");
+    $("#footer").load("footer.html");
+    $("#nav").load("header.html");
     // 上方图片轮播
     var $imgList = $("#container div.slider img");
     var $liList = $("#container div.slider li");
@@ -27,18 +30,18 @@ $(function() {
             .removeClass("active");
     });
 });
-$(document).ready(function(){
-    $("#container-footer").load("container-footer.html");
-    $("#footer").load("footer.html");
-    $("#nav").load("header.html",function(){
-        //导航条点击切换
-        $("#nav>ul>li").click(function() {
-             var index = $(this).index();
-             $("#nav>ul>li").eq(index).addClass("active").siblings().removeClass("active");
-             console.log($(this));
-        });
-    });
-});
+// $(document).ready(function(){
+//     $("#container-footer").load("container-footer.html");
+//     $("#footer").load("footer.html");
+//     $("#nav").load("header.html"),function(){
+//         //导航条点击切换
+//         $("#nav>ul>li").click(function() {
+//              var index = $(this).index();
+//              $("#nav>ul>li").eq(index).addClass("active").siblings().removeClass("active");
+//              console.log($(this));
+//         });
+//     });
+// });
 
 
 // 其他部分
